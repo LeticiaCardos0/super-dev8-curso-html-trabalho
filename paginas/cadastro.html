@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Faça seu cadastro</h1>
+    <form action="login.html">
+        <div>
+            <label for="campo-email">E-mail</label>
+            <input type="email" id="campo-email" name="email" required>
+        </div>
+        <div>
+            <label for="campo-senha">Senha</label>
+            <input type="password" id="campo-senha" name="senha" required>
+        </div>
+        <div>
+            <label for="campo-cpf">CPF</label>
+            <input type="text" id="campo-cpf" name="cpf" required>
+        </div>
+        <div>
+            <label for="campo-nome">Nome Completo</label>
+            <input type="text" id="campo-nome" name="nome">
+        </div>
+        <div> 
+            <label for="campo-cargo">Cargo</label>
+            <select name="cargo" id="campo-cargo">
+                <option disabled selected>Selecione seu cargo</option>
+                <option value="Junior">Junior</option>
+                <option value="Pleno">Pleno</option>
+                <option value="Senior">Senior</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="justificativa" id="campo-jus"></textarea>
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    
+</body>
+</html>
